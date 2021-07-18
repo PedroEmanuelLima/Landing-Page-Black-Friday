@@ -1,0 +1,48 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 35vw;
+
+    background-color: #8c9291;
+    padding: 10px;
+
+    font-family: 'STIX Two Math', serif;
+    border: solid #8c9291 3px;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+
+    cursor: pointer
+}
+
+.card .card-img img{
+    width: 25vw;
+    height: 50vh;
+
+    border: solid #8c9291 10px;
+    border-radius: 6px;
+}
+
+.card .img-description {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+} 
+
+.card .img-price {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+
+    font-weight: 700;
+} 
+
+.card .img-price s {
+    margin-right: 2rem;
+}
+
+@media(max-width:990px){
+    .card {
+        flex-direction: row;
+        max-width: 80%;
+    }
+}
