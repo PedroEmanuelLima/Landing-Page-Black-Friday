@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+## 🧾 Descrição
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto de uma página web que implementa uma landing page na Black Friday. Possui uma navbar das opções de navegação, um formulário que recebe email e nome, com finalidade de enviar promoções. No corpo da página possui produtos em promoção, com suas informações gerais. 
 
-## Available Scripts
+Além disso, o projeto é feito em TypeScript com o framework ReactJS.
 
-In the project directory, you can run:
+<h1>
 
-### `yarn start`
+## 🔌 Tecnologias utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **TypeScript**
+- **React JS**
+- **HTML**
+- **CSS** 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🏳️ Como executar?
 
-### `yarn test`
+#### **Passo 1**
+Faça download do repositório.
+<br/>
+``git clone https://github.com/PedroEmanuelLima/Landing-Page-Black-Friday.git``
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### **Passo 2**
+Abra o arquivo em um navegador e teste as funções.
+<br/>
+``cd Landing-Page-Black-Friday``
 
-### `yarn build`
+#### **Passo 3**
+Instale as dependências.
+<br/>
+``npm install``
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### **Passo 4**
+Execute.
+<br>
+``npm start``
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✅ Resultado (Preview)
+<img src="Image/blackFride.png">
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💻 Autor: Pedro Emanuel
 
-### `yarn eject`
+Portfólio:
+- [Github](https://github.com/PedroEmanuelLima)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contato:
+- [Linkedin](https://www.linkedin.com/in/pedro-almeida-b39a9019b/)
